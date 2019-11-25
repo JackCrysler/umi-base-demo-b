@@ -1,0 +1,40 @@
+.__actionsheet__{
+    position: fixed;
+    top: 0;left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.3);
+}
+.__actionsheet__title{
+    margin: 0;
+    padding: 5px 10px;
+    border-bottom: 1px solid #eee;
+}
+.__actionsheet__wrap{
+    position: absolute;
+    bottom: 0;
+    max-height: 50%;
+    width: 100%;
+    overflow: auto;
+    background: #fff;
+}
+.__actionsheet__content{
+    padding: 15px 20px;
+}
+.__actionsheet__content li{
+    border-bottom: 1px solid #ccc;
+    line-height: 40px;
+    text-align: center;
+}
+.__actionsheet__btns{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    line-height: 40px;
+}
+.__actionsheet__btns__cancel{
+    flex: 1;
+    border-top: 1px solid #eee;
+}
+  

@@ -1,0 +1,16 @@
+.cubics{
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid #ccc;
+}
+.cubics-item{
+    height: 95px;
+    width: 33.33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    box-sizing: border-box;
+}
